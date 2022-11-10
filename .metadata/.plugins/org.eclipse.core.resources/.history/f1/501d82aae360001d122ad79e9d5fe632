@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author mathi
+ *
+ */
+module Morpion {
+}
