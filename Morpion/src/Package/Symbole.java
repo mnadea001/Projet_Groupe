@@ -2,6 +2,6 @@ package Package;
 
 public enum Symbole {
 
-	ROND,CROIX
-	
+	ROND, CROIX
+
 }

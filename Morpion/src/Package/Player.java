@@ -6,6 +6,5 @@ public class Player {
 	boolean isPlaying;
 	boolean isWinner;
 	Symbole symbole;
-	
-	
+
 }

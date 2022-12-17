@@ -15,4 +15,11 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.junit.jupiter</groupId>
+  		<artifactId>junit-jupiter-engine</artifactId>
+  		<version>5.8.1</version>
+  	</dependency>
+  </dependencies>
 </project>
