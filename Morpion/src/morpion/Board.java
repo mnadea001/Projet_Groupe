@@ -1,4 +1,4 @@
-package Package;
+package morpion;
 
 public class Board {
 

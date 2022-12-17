@@ -1,13 +1,13 @@
-package Package;
+package morpion;
 
 public class Case {
 
 	int nbCases;
 	boolean isDispo;
-
-	public Case(int nbCases, boolean isDispo) {
-		this.nbCases = nbCases;
-		this.isDispo = isDispo;
+	String symbol;
+	
+	public Case() {
+		this.symbol = " ";
 	}
 
 	public int getNbCases() {
