@@ -4,10 +4,10 @@ public class Case {
 
 	int nbCases;
 	boolean isDispo;
-	String symbol;
+	Symbole symbol;
 	
 	public Case() {
-		this.symbol = " ";
+		this.symbol = Symbole.VIDE;
 	}
 
 	public int getNbCases() {
@@ -26,4 +26,17 @@ public class Case {
 		this.isDispo = isDispo;
 	}
 
+	public Symbole getSymbol() {
+		return this.symbol;
+	}
+	
+	public void add(Symbole symbol) {
+		if (this.isDispo == false) {
+			throw new Error("la case n'est pas dispo");
+		}
+		else {
+			this.symbol = symbol;
+			this.isDispo = false;
+		}
+	}
 }

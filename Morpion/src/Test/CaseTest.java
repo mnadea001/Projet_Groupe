@@ -1,8 +1,11 @@
 package Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 
 import morpion.Case;
+import morpion.Symbole;
 
 public class CaseTest {
 	
@@ -13,7 +16,7 @@ public class CaseTest {
 		assertEquals(" ", c.getSymbol());
 		assertEquals(true, c.isDispo());
 		
-		c.add("X");
+		c.add(Symbole.CROIX);
 		
 		assertEquals("X", c.getSymbol());
 		assertEquals(false, c.isDispo());

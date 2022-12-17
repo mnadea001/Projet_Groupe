@@ -2,6 +2,14 @@ package morpion;
 
 public enum Symbole {
 
-	ROND, CROIX
+	VIDE(" "),
+	ROND("O"), 
+	CROIX("X");
+	
+	String symboleString ; 
+	
+	Symbole(String symbole) {
+		symboleString = symbole ; 
+	}
 
 }
