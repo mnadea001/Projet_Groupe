@@ -16,6 +16,8 @@ public class Board {
 	Case b[] = {case4, case5, case6};
 	Case c[] = {case7, case8, case9};
 	
+	Case[] lines[] = {a,b,c};
+	
 	public void show() {
 		String s1 = ("  1   2   3\n");
 		String s2 = ("A "+case1.getSymbol().symboleString+" | "+case2.getSymbol().symboleString+" | "+case3.getSymbol().symboleString+"\n");
