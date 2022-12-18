@@ -3,8 +3,8 @@ package morpion;
 import java.util.Scanner;
 
 public class Game {
-	Player player1;
-	Player player2;
+	public Player player1;
+	public Player player2;
 	Player currentPlayer;
 	Board board;
 	Rules rules = new Rules();

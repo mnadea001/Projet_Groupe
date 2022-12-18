@@ -5,7 +5,7 @@ public class Player {
 	String username;
 	boolean isPlaying;
 	boolean isWinner;
-	Symbole symbole;
+	public Symbole symbole;
 
 	public Player() {
 		this.username = "John Doe";
