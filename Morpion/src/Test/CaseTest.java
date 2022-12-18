@@ -16,7 +16,11 @@ public class CaseTest {
 		assertEquals(" ", c.getSymbol());
 		assertEquals(true, c.isDispo());
 		
-		c.add(Symbole.CROIX);
+		try {
+			c.add(Symbole.CROIX);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 		assertEquals("X", c.getSymbol());
 		assertEquals(false, c.isDispo());

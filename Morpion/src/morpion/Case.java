@@ -8,6 +8,7 @@ public class Case {
 	
 	public Case() {
 		this.symbol = Symbole.VIDE;
+		isDispo = true;
 	}
 
 	public int getNbCases() {
@@ -30,9 +31,9 @@ public class Case {
 		return this.symbol;
 	}
 	
-	public void add(Symbole symbol) {
+	public void add(Symbole symbol) throws Exception {
 		if (this.isDispo == false) {
-			throw new Error("la case n'est pas dispo");
+			throw new Exception("la case n'est pas dispo");
 		}
 		else {
 			this.symbol = symbol;
