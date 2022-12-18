@@ -1,16 +1,16 @@
 package Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
 import morpion.Player;
 import morpion.Symbole;
 
-public class PlayerTest {
-	
+class PlayerTest {
+
 	@Test
-	public void declaration() {
+	void declaration() {
 		Player p = new Player();
 		
 		assertEquals("John Doe", p.getUsername());

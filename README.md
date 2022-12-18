@@ -1,21 +1,34 @@
 # Projet_Groupe
 
+# Matilde NADEAU - Arnaud BOYER - Djibril FALL
 
-## Consignes 
+## Le projet :
 
-En équipe de 2 - 4
-Je veux que vous créer un projet Java
-Ce dernier doit être hosté sur un serveur git.
-Partagé avec toute votre équipe. 
-Posséder un main et au moins 5 autres class
-Avoir une branche dev, une branche stage et une branche prod
-La branche dev doit avoir été constituée d’au moins 5 commit, fait par deux 
-personnes différentes, et au moins 2 merge de branche sur la branch dev avoir que 
-ne soit tiré la stage et la prod. 
-Le projet doit posséder des tests unitaires pour au moins 2 de ses class. 
-Le projet doit posséder un githook pour le commit et le pre push
-Les hooks du projet doivent être automatiquement mise en place dès que le projet 
-est clone.
-Une liste de ces hooks avec une description de leur action doit être lisible sur le 
-README de votre git. 
+Projet Morpion en Java JDK 19 avec test Unitaire JUNIT 5.
 
+## Les Hooks :
+
+## Les classes :
+
+### Classe Main
+
+Cette classe sert uniquemen à instancier un partie (Game). Dans une futur version du projet cette classe peut contenir toute un logique d'instanciation de player, le compte de point d'une partie à une autre voire d'un "tournoi" s'il y a plusieurs players.
+
+### Classe Game
+
+Contient toute la logique de jeu :
+
+- Déroulement d'un round
+- Utilisation de la classe Rules pour les conditions de victoires
+
+### Classe Board
+
+Contient le "dessin" d'une table de jeu et 9 instances de Cases. Le Tableau est mis à jour puis montrer à chaque tour dans le game grâce à sa fonction show().
+
+### Classe Case
+
+Une classe très simple mais assez puissante puisqu'elle permet non seulement de modifier le caractère contenu dans la case (caractère espace, X ou O) mais de tester si la case a déjà été jouée et de renvoyer une exception le cas échéant.
+
+### Classe Rules
+
+Une classe dédiée au test de victoire.
