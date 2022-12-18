@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#The cheapest hook ever
+
+echo "Pre-Commit Hook fonctionne"
+
+exit 0
