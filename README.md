@@ -1,6 +1,6 @@
 # Projet_Groupe
 
-# Matilde NADEAU - Arnaud BOYER - Djibril FALL
+# Mathilde NADEAU - Arnaud BOYER - Djibril FALL
 
 ## Le projet :
 
