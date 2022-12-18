@@ -5,6 +5,7 @@
 ## Le projet :
 
 Projet Morpion en Java JDK 19 avec test Unitaire JUNIT 5.
+Afin d'éventuellement facilité l'import, une archive a été placé à la racine du projet.
 
 ## Les Hooks :
 
