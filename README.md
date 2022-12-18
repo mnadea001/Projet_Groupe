@@ -8,6 +8,13 @@ Projet Morpion en Java JDK 19 avec test Unitaire JUNIT 5.
 
 ## Les Hooks :
 
+Après le clone entrer en ligne de commande dans le projet puis,
+Lancer : `git config core.hooksPath hooks/`
+
+### Hook de pre-push:
+
+echo `COUCOU` dans la console et exit.
+
 ## Les classes :
 
 ### Classe Main

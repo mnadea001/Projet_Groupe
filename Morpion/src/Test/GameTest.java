@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import morpion.Game;
 
-public class gameTest {
+public class GameTest {
 	@Test
 	public void initiationTest() {
 		Game g = new Game();
