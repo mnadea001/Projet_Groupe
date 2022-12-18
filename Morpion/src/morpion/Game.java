@@ -32,13 +32,13 @@ public class Game {
 				System.out.println("la case est déjà occupée, veuillez recommencer.");
 				continue;
 			}
-			else currentPlayer = currentPlayer == player1 ? player2 : player1;
+			board.show();
 			Boolean isItAWin = rules.checkVictory(board);
 			if (isItAWin) {
 				congrats(currentPlayer);
 				break;
 			}
-			board.show();
+			currentPlayer = currentPlayer == player1 ? player2 : player1;
 		}
 		playerScanner.close();
 	}
